@@ -1,0 +1,104 @@
+package in.resumebuilder.resume.entity;
+
+public class User {
+	private String fullName;
+	private String jobTitle;
+	private int mobile;
+	private String address;
+	private String linkedIn;
+	private String email;
+	private String profileSummary;
+	private String keySkills;
+	private Experience experience;
+	private Projects projects;
+	private Education education;
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+
+	public String getJobTitle() {
+		return jobTitle;
+	}
+
+	public void setJobTitle(String jobTitle) {
+		this.jobTitle = jobTitle;
+	}
+
+	public int getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(int mobile) {
+		this.mobile = mobile;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getLinkedIn() {
+		return linkedIn;
+	}
+
+	public void setLinkedIn(String linkedIn) {
+		this.linkedIn = linkedIn;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getProfileSummary() {
+		return profileSummary;
+	}
+
+	public void setProfileSummary(String profileSummary) {
+		this.profileSummary = profileSummary;
+	}
+
+	public String getKeySkills() {
+		return keySkills;
+	}
+
+	public void setKeySkills(String keySkills) {
+		this.keySkills = keySkills;
+	}
+
+	public Experience getExperience() {
+		return experience;
+	}
+
+	public void setExperience(Experience experience) {
+		this.experience = experience;
+	}
+
+	public Projects getProjects() {
+		return projects;
+	}
+
+	public void setProjects(Projects projects) {
+		this.projects = projects;
+	}
+
+	public Education getEducation() {
+		return education;
+	}
+
+	public void setEducation(Education education) {
+		this.education = education;
+	}
+
+}
